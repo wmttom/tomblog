@@ -13,7 +13,7 @@ Contents:
 
 hello world
 
-* ：ref:'python'
+* :ref:'python'
 
 Indices and tables
 ==================
