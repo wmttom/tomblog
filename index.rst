@@ -11,7 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+hello world
 
+* ：ref:'python'
 
 Indices and tables
 ==================
