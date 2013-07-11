@@ -10,8 +10,8 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
-hello world
+    python
+hello world!!!
 
 * :ref:`python`
 
