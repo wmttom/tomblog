@@ -10,10 +10,11 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-    python
+
+   python/page1
+
 hello world!!!
 
-* :ref:`python`
 
 Indices and tables
 ==================
