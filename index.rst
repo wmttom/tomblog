@@ -15,15 +15,16 @@ tom的博客
 尤其不要在大多数人与你做着不同的事情的时候怀疑自己的选择。
 
 pythonnic
-============
+-----------
 python是一个形容词，很python，你懂的。
+
 .. toctree::
    :maxdepth: 2
 
    python/index
 
 MySQL
-=========
+-----------
 less is more.作为免费的东西，已经足够好了。
 
 .. toctree::
