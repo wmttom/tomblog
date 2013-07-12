@@ -28,7 +28,7 @@ div.documentwrapper {
 }
 
 div.bodywrapper {
-    margin: 0 0 0 230px;
+    margin: 0 0 0 {{ theme_sidebarwidth }}px;
 }
 
 hr {
@@ -93,7 +93,7 @@ div.related a {
 
 div.related ul {
     width: 960px;
-    padding-left: 240px;
+    padding-left: {{ theme_sidebarwidth|toint + 10 }}px;
 }
  
 div.sphinxsidebar {
