@@ -39,7 +39,6 @@ div.body {
     background-color: {{ theme_bgcolor }};
     color: {{ theme_textcolor }};
     padding: 0 20px 30px 20px;
-    line-height: 135%
 }
 
 {%- if theme_rightsidebar|tobool %}

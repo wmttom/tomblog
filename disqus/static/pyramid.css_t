@@ -22,6 +22,10 @@ body {
     padding: 0;
 }
 
+div.line {
+    line-heigh: 135%
+}
+
 div.documentwrapper {
     float: left;
     width: 100%;
