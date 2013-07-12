@@ -23,7 +23,7 @@ body {
 }
 
 div.line {
-    line-heigh: 135%
+    margin-bottom: 6px
 }
 
 div.documentwrapper {
