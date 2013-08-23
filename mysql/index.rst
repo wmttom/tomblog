@@ -1,4 +1,4 @@
-MySQL测试文字
+MySQL相关
 ================
 .. toctree::
    :maxdepth: 2
