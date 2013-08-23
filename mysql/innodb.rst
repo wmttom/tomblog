@@ -5,8 +5,11 @@
 ------
 
 * innoDB的内存主要由以下组成：
+
   + buffer poll 缓冲池
+
   + redo log buffer 
+
   + itional memory poll 额外内存池
 
 缓存池是占用内存最多的部分，存放着各种数据的缓冲。InnoDB总是将数据按照page（16k）读到缓冲池，然后按照LRU（最少使用算法）保留缓存数据。如果数据需要修改，总是首先修改缓存池中的page（即为脏页），然后按照一定的频率将缓冲池的脏页刷新（flush）到文件。
