@@ -33,10 +33,3 @@ less is more.作为免费的东西，已经足够好了。
 
    mysql/index
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-

@@ -4,3 +4,4 @@ MySQL测试文字
    :maxdepth: 2
 
    test
+   innodb
