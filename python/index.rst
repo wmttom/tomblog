@@ -1,6 +1,5 @@
-python测试文字
+python
 ================
 .. toctree::
    :maxdepth: 2
 
-   test
