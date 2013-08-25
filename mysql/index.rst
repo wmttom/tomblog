@@ -15,4 +15,4 @@ MySQL应用相关
 .. toctree::
    :macdepth: 2
 
-   friendfeed_mysql
+   friendfeedmysql
