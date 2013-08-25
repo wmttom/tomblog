@@ -13,6 +13,6 @@ MySQL运维相关
 MySQL应用相关
 ===============
 .. toctree::
-   :macdepth: 2
+   :maxdepth: 2
 
    friendfeedmysql
