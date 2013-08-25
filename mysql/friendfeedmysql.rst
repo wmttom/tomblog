@@ -1,7 +1,7 @@
 [原创翻译]FriendFeed如何用MySQL储存无模式数据
 ===============================================
 | @这是一篇比较老的文章，我现在的理解是使用MySQL实现了一个MongoDB，在思路上有借鉴意义。
-| 原文地址：http://backchannel.org/blog/friendfeed-schemaless-mysql
+| .._原文地址:http://backchannel.org/blog/friendfeed-schemaless-mysql
 
 背景
 ------
@@ -134,9 +134,9 @@ added_id列存在，因为InnoDB存储数据行完全按照主键顺序。自增
 --------
 
 我们在新系统中已经对主要索引进行了非常多的优化，并且对优化结果非常满意。下面是上个月FriendFeed页面延迟的图表（我们在几天前启动了新后台，你可以看到戏剧性的下降）：
-
+.. image:: http://d1udwvgzrtavb8.cloudfront.net/f066c739eb6ff1a5d4f3d275ac564ce70efccda5
 尤其是，我们系统的延迟现在非常稳定，即使在高峰的正午时间。下面是过去24小时FriendFeed页面延迟的图表：
-
+.. image:: http://d1udwvgzrtavb8.cloudfront.net/72a319e1cd1c16520e26fa428bed7039ecb67f6d
 对比一周前的数据：
-
+.. image:: http://d1udwvgzrtavb8.cloudfront.net/aaf78c3d130196bf0f8863fadd7b7bf41aa04bd3
 到目前为止，系统真的容易完成了工作。自从我们发展了系统，已经改变了索引好多次，并且我们开始使用新模式转换最大的的MySQL表，以便于我们可以随着发展更自由的改变数据结构。
