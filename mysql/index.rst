@@ -16,4 +16,6 @@ MySQL应用相关
    :maxdepth: 2
 
    MySQL唯一标识设计相关问题
+   INNODB中NULL使用
+   INNODB前缀索引相关
    friendfeedmysql
