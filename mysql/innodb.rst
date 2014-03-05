@@ -8,7 +8,7 @@
 
   + buffer poll 缓冲池
 
-  + redo log buffer 
+  + redo log buffer
 
   + additional memory poll 额外内存池
 
