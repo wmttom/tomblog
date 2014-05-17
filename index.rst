@@ -15,14 +15,14 @@ tom的博客
 
 | 尤其不要在大多数人与你做着不同的事情的时候怀疑自己的选择。
 
-pythonnic
------------
-python是一个形容词，很python，你懂的。
+distributed
+-------------
+All Things Distributed
 
 .. toctree::
    :maxdepth: 2
 
-   python/index
+   distributed/index
 
 MySQL
 -----------
@@ -32,6 +32,15 @@ less is more.天下数据库是一家。
    :maxdepth: 2
 
    mysql/index
+
+pythonnic
+-----------
+python是一个形容词，很python，你懂的。
+
+.. toctree::
+   :maxdepth: 2
+
+   python/index
 
 卧听风雨
 -----------
